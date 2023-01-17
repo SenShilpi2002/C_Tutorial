@@ -5,7 +5,7 @@ int main(){
     int *p;
     p=a;
     printf("%d\n",*p++);
-     printf("%d\n%d\n",*p++,*p++);
+     printf("%d\n%d\n",*p++,*p++);//the majority to icrement first from right side
       printf("%d\n",*p);
        printf("%d\n",*++p,*++p);
        printf("%d\n",*p);
