@@ -1,5 +1,5 @@
 //call by value
-/*#include <stdio.h>     //call by value
+#include <stdio.h>     //call by value
 void fun(int, int);   //actual parameter
 void main()
 {
@@ -12,7 +12,7 @@ void fun(int x, int y)   //formal parameter
     x = 7;
     y = 5;
     printf("x=%d,y=%d", x, y);
-}*/
+}
 
 //output will be in fun() are x=7 and y=5
 // and in main function the value of x=5 and y=7
