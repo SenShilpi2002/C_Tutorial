@@ -5,7 +5,7 @@
 
 #include<stdio.h>
 int sum();   //function declaration
-int main(){  //function calling
+int main(){  //function calling...
     int sum();
 }
 int sum(){    //funtion definition
