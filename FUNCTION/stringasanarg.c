@@ -1,5 +1,6 @@
 #include<stdio.h>
-void modify(char*,char*);
+void modify(char*,char*);    //in main() function whenever calling the function i.e;function definition 
+                            //that time the strings will act as pointers in modify() and it will pointed  to the address of the two strings......
 
 
 
